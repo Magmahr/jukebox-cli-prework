@@ -19,7 +19,7 @@ def help
 end  
 
 def list(songs)
-  songs.each_with_index |song, idx|
+  songs.each_with_index do |song, idx|
     puts "#{idx + 1}. #{song}"
   end
 end  
