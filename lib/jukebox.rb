@@ -32,7 +32,7 @@ def play(songs)
       puts "Playing #{song}"
     elsif input == (idx + 1) 
       puts "Playing #{song}"
-    else (song.include?(input) == false || input != (idx + 1) 
+    else song.include?(input) == false || input != (idx + 1) 
       puts "Invalid input, please try again"
     end 
   end
